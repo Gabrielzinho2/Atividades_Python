@@ -1,0 +1,1 @@
+dia, mes, ano = input("Digite uma data: ").split("/")

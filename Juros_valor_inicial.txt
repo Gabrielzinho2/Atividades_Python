@@ -1,0 +1,15 @@
+fv = float(input("Digite o valor final do investimento: "))
+
+n = int(input("Digite  número de meses que o dinheiro ficará aplicao: "))
+
+i = float(input("Digite o valor da taxa em (%): "))
+
+print("O valor da taxa percentual é de :",i)
+
+i = (i/100);
+
+print("O valor da taxa decimal é de: ",i,"%")
+
+pv = fv / ((1+i)**n)
+
+print("O valor inicial do investimento será de R$",pv)

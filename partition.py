@@ -1,0 +1,1 @@
+nome, sep, sobrenome = input("Digite seu nome completo: ").partition(' ')
